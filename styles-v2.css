@@ -86,3 +86,40 @@
 .company-v3 .seo-underhood{background:#fff;border:1px solid #dce5f1;box-shadow:0 10px 32px rgba(13,27,49,.035)}
 @media(max-width:1000px){.benefit-grid{grid-template-columns:1fr 1fr}.capability-grid{grid-template-columns:1fr 1fr}.company-v3 .import-cards{grid-template-columns:1fr;gap:0}}
 @media(max-width:680px){.benefit-grid,.capability-grid{grid-template-columns:1fr}.benefit-grid article{min-height:0}.capability-grid article{min-height:0}.company-v3 .import-cards article{min-height:0}}
+
+/* Mobile layout correction */
+@media(max-width:680px){
+  .site-header .header-inner{height:64px;gap:10px}
+  .brand{font-size:20px}.brand img{width:30px;height:30px}.brand small{font-size:9px}
+  .header-inner>.btn{font-size:13px;padding:9px 13px}
+  .hero-v3{padding:34px 0 42px}
+  .hero-v3 .eyebrow{margin-bottom:18px;font-size:12px}
+  .hero-v3 .hero-grid{display:flex;flex-direction:column;gap:28px}
+  .hero-v3 h1{font-size:clamp(38px,11vw,48px);line-height:1.01;letter-spacing:-.055em;margin-bottom:20px}
+  .hero-v3 .hero-lead{font-size:18px;line-height:1.5;margin-bottom:24px}
+  .hero-v3 .hero-actions{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+  .hero-v3 .hero-actions .btn{width:100%;padding:13px 10px;font-size:13px;gap:7px}
+  .hero-v3 .hero-tags{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:22px}
+  .hero-v3 .hero-tags span{display:flex;align-items:center;min-height:42px;padding:8px 10px;font-size:12px;line-height:1.25;border-radius:12px}
+  .hero-v3 .fine{font-size:14px;line-height:1.45;margin-top:14px}
+  .hero-v3 .hero-visual{width:100%;margin-top:2px}
+  .hero-v3 .browser-bar{height:32px;font-size:10px}
+  .hero-v3 .screen{max-height:310px}
+  .hero-v3 .screen img{width:100%;height:auto}
+  .benefit-grid{grid-template-columns:1fr 1fr;gap:10px}
+  .benefit-grid article{padding:18px 16px;min-height:190px}
+  .benefit-grid span{width:32px;height:32px}
+  .benefit-grid h2{font-size:20px;line-height:1.15;margin:22px 0 8px}
+  .benefit-grid p{font-size:16px;line-height:1.45}
+  .capability-grid{grid-template-columns:1fr 1fr;gap:10px}
+  .capability-grid article{padding:18px 14px 18px 42px;min-height:155px}
+  .capability-grid article:before{left:13px;top:18px;width:21px;height:21px}
+  .capability-grid b{font-size:17px;line-height:1.2}
+  .capability-grid p{font-size:15px;line-height:1.4}
+  .company-v3 .import-cards{grid-template-columns:1fr;gap:0}
+}
+@media(max-width:390px){
+  .hero-v3 .hero-actions{grid-template-columns:1fr}
+  .hero-v3 h1{font-size:37px}
+  .benefit-grid,.capability-grid{grid-template-columns:1fr}
+}
