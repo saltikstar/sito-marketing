@@ -11,3 +11,27 @@
 .seo-flow span{font-size:14px;font-weight:700;background:#fff;border:1px solid #dce4ef;border-radius:999px;padding:9px 13px}
 .seo-flow b{color:#8290a5}
 @media(max-width:680px){body{font-size:16px}.header-inner>.btn{font-size:14px}.title-row>p,.manager-band p,.final p{font-size:16px}.journey p,.final-card p,.price span,.footer-grid>div:not(.brand),.text-link{font-size:14px}.eyebrow,.section-index{font-size:14px;letter-spacing:.1em}.seo-underhood{grid-template-columns:1fr;padding:24px;gap:14px}.seo-underhood h3{font-size:25px}.seo-flow{grid-column:auto}.seo-flow b{display:none}.seo-flow span{width:100%;text-align:center}.fine{font-size:14px}}
+
+/* Marketing v3 */
+.hero-v3{padding-top:76px;padding-bottom:70px}
+.hero-v3 .hero-grid{grid-template-columns:.9fr 1.1fr}
+.hero-v3 h1{font-size:clamp(48px,5.3vw,80px)}
+.hero-v3 h1 span{color:#d5e0ff}
+.hero-v3 .fine{margin-top:18px;max-width:600px}
+.btn-ghost{border-color:rgba(255,255,255,.28);color:#fff;background:rgba(255,255,255,.06)}
+.btn-ghost:hover{background:rgba(255,255,255,.12)}
+.hero-tags{display:flex;flex-wrap:wrap;gap:10px;margin-top:30px}
+.hero-tags span{font-size:14px;font-weight:600;color:#dce5f5;border:1px solid rgba(255,255,255,.16);background:rgba(255,255,255,.06);padding:9px 13px;border-radius:999px}
+.benefits{padding:70px 0;border-bottom:1px solid var(--line)}
+.benefit-grid{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);border-radius:24px;overflow:hidden}
+.benefit-grid article{padding:28px;border-right:1px solid var(--line)}
+.benefit-grid article:last-child{border-right:0}
+.benefit-grid span{font-size:14px;color:#8290a5;font-weight:700}
+.benefit-grid h2{font-size:25px;letter-spacing:-.035em;margin:30px 0 8px}
+.benefit-grid p{font-size:15px;color:var(--muted);margin:0}
+.company-v3{background:#f7f8fb}
+.company-v3 .seo-underhood{margin-top:44px}
+.compact-journey{margin-bottom:0}
+.product-show .title-row{margin-bottom:44px}
+@media(max-width:1000px){.benefit-grid{grid-template-columns:1fr 1fr}.benefit-grid article:nth-child(2){border-right:0}.benefit-grid article:nth-child(-n+2){border-bottom:1px solid var(--line)}}
+@media(max-width:680px){.hero-v3{padding-top:48px}.hero-v3 h1{font-size:42px}.hero-v3 .hero-grid{gap:38px}.hero-tags{margin-top:24px}.hero-tags span{font-size:14px}.benefits{padding:54px 0}.benefit-grid{grid-template-columns:1fr}.benefit-grid article{border-right:0;border-bottom:1px solid var(--line)!important;padding:23px}.benefit-grid article:last-child{border-bottom:0!important}.benefit-grid h2{margin-top:16px}.hero-v3 .hero-actions .btn-ghost{width:100%}}
