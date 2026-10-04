@@ -263,3 +263,12 @@
 .research-proof-copy p{margin:10px 0 8px;font-size:18px;line-height:1.55;color:var(--muted,#5d6878);max-width:760px}
 .research-proof-copy a{font-size:14px;font-weight:700;color:#2f63d8;text-decoration:none}
 @media(max-width:680px){.research-proof{padding:30px 0}.research-proof-inner{grid-template-columns:1fr;gap:14px}.research-proof-number{font-size:64px}.research-proof-copy strong{font-size:21px}}
+
+/* Pilot price-fix note: supporting information, not a second CTA */
+.pilot-fixed{
+  background:rgba(255,255,255,.09);
+  border:1px solid rgba(255,255,255,.16);
+  color:#fff;
+  border-radius:16px;
+  padding:15px 18px;
+}
