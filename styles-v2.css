@@ -250,3 +250,7 @@
 .final-note{display:block;margin-top:14px;color:#9baac0;font-size:14px;line-height:1.45;max-width:610px}
 @media(max-width:800px){.product-journey-head{grid-template-columns:1fr;gap:18px}.demo-text-link{justify-self:start}.journey-line{grid-template-columns:1fr 1fr}}
 @media(max-width:680px){.product-journey-head h2{font-size:34px}.product-main-mockup .screen{max-height:380px}.journey-line{grid-template-columns:1fr 1fr}.journey-line span{padding:14px 12px}.journey-line span:nth-child(2){border-right:0}.journey-line span:nth-child(-n+2){border-bottom:1px solid rgba(255,255,255,.12)}.journey-line b{font-size:14px}}
+
+/* Separate audience section from neighboring light sections */
+.audience{background:#e7eef9}
+.audience-tags span{background:#fff;border-color:#cbd8e9;box-shadow:0 6px 18px rgba(18,43,84,.035)}
