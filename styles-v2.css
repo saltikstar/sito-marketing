@@ -254,3 +254,12 @@
 /* Separate audience section from neighboring light sections */
 .audience{background:#e7eef9}
 .audience-tags span{background:#fff;border-color:#cbd8e9;box-shadow:0 6px 18px rgba(18,43,84,.035)}
+
+/* Gartner research proof */
+.research-proof{background:#fff;padding:38px 0;border-top:1px solid rgba(18,43,84,.08);border-bottom:1px solid rgba(18,43,84,.08)}
+.research-proof-inner{display:grid;grid-template-columns:180px minmax(0,760px);gap:38px;align-items:center}
+.research-proof-number{font-size:76px;line-height:.9;font-weight:800;letter-spacing:-.055em;color:#2f63d8}
+.research-proof-copy strong{display:block;font-size:23px;line-height:1.25;letter-spacing:-.02em;max-width:720px}
+.research-proof-copy p{margin:10px 0 8px;font-size:18px;line-height:1.55;color:var(--muted,#5d6878);max-width:760px}
+.research-proof-copy a{font-size:14px;font-weight:700;color:#2f63d8;text-decoration:none}
+@media(max-width:680px){.research-proof{padding:30px 0}.research-proof-inner{grid-template-columns:1fr;gap:14px}.research-proof-number{font-size:64px}.research-proof-copy strong{font-size:21px}}
