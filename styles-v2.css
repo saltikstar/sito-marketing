@@ -50,3 +50,7 @@
 @media(max-width:1200px){.hero-tags{grid-template-columns:repeat(2,max-content)}}
 @media(max-width:800px){.capability-grid{grid-template-columns:1fr 1fr}.capability-grid article{border-right:1px solid var(--line)!important;border-bottom:1px solid var(--line)!important}.capability-grid article:nth-child(2n){border-right:0!important}.capability-grid article:nth-last-child(-n+2){border-bottom:0!important}}
 @media(max-width:680px){.hero-tags{display:flex;gap:8px}.hero-tags span{white-space:normal}.capabilities{padding:58px 0}.capability-grid{grid-template-columns:1fr}.capability-grid article{min-height:0;border-right:0!important;border-bottom:1px solid var(--line)!important}.capability-grid article:last-child{border-bottom:0!important}}
+
+/* Body copy readability */
+.hero-lead,.title-row>p,.manager-band p,.final p,.benefit-grid p,.capability-grid p,.journey p,.import-cards p,.seo-underhood p,.fit-list p,.price-grid article>p,details p,.final-card p{font-size:18px;line-height:1.6}
+@media(max-width:680px){.hero-lead,.title-row>p,.manager-band p,.final p,.benefit-grid p,.capability-grid p,.journey p,.import-cards p,.seo-underhood p,.fit-list p,.price-grid article>p,details p,.final-card p{font-size:18px}}
