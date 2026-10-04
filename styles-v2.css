@@ -35,3 +35,18 @@
 .product-show .title-row{margin-bottom:44px}
 @media(max-width:1000px){.benefit-grid{grid-template-columns:1fr 1fr}.benefit-grid article:nth-child(2){border-right:0}.benefit-grid article:nth-child(-n+2){border-bottom:1px solid var(--line)}}
 @media(max-width:680px){.hero-v3{padding-top:48px}.hero-v3 h1{font-size:42px}.hero-v3 .hero-grid{gap:38px}.hero-tags{margin-top:24px}.hero-tags span{font-size:14px}.benefits{padding:54px 0}.benefit-grid{grid-template-columns:1fr}.benefit-grid article{border-right:0;border-bottom:1px solid var(--line)!important;padding:23px}.benefit-grid article:last-child{border-bottom:0!important}.benefit-grid h2{margin-top:16px}.hero-v3 .hero-actions .btn-ghost{width:100%}}
+
+/* v3 capability polish */
+.brand small{font-size:11px;line-height:1.25;margin-top:2px}
+.hero-tags{display:grid;grid-template-columns:repeat(4,max-content);gap:10px;margin-top:30px}
+.hero-tags span{font-size:13px;line-height:1.2;padding:9px 12px;white-space:nowrap}
+.capabilities{padding:76px 0;background:#fff;border-bottom:1px solid var(--line)}
+.capability-grid{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--line);border-radius:24px;overflow:hidden}
+.capability-grid article{padding:25px 27px;min-height:142px;border-right:1px solid var(--line);border-bottom:1px solid var(--line)}
+.capability-grid article:nth-child(3n){border-right:0}
+.capability-grid article:nth-child(n+4){border-bottom:0}
+.capability-grid b{font-size:18px;letter-spacing:-.025em}
+.capability-grid p{font-size:14px;color:var(--muted);margin:10px 0 0;max-width:330px}
+@media(max-width:1200px){.hero-tags{grid-template-columns:repeat(2,max-content)}}
+@media(max-width:800px){.capability-grid{grid-template-columns:1fr 1fr}.capability-grid article{border-right:1px solid var(--line)!important;border-bottom:1px solid var(--line)!important}.capability-grid article:nth-child(2n){border-right:0!important}.capability-grid article:nth-last-child(-n+2){border-bottom:0!important}}
+@media(max-width:680px){.hero-tags{display:flex;gap:8px}.hero-tags span{white-space:normal}.capabilities{padding:58px 0}.capability-grid{grid-template-columns:1fr}.capability-grid article{min-height:0;border-right:0!important;border-bottom:1px solid var(--line)!important}.capability-grid article:last-child{border-bottom:0!important}}
