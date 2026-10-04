@@ -309,3 +309,6 @@
  .research-proof-kicker{left:22px}
  .research-proof-number{font-size:66px}
 }
+
+/* Center Gartner callout within the page */
+.research-proof-inner{margin-left:auto;margin-right:auto}
