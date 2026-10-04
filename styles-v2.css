@@ -185,3 +185,24 @@
 @media(max-width:800px){.pain-grid,.audience-row,.data-update-grid,.personalization-grid{grid-template-columns:1fr;gap:30px}.pain-messages,.personalization-list{grid-template-columns:1fr 1fr}.pain-result{align-items:flex-start;flex-direction:column;gap:8px}}
 @media(max-width:680px){.pain{padding:62px 0}.pain-copy h2{font-size:36px}.pain-messages{grid-template-columns:1fr 1fr;gap:8px}.pain-messages div{padding:16px 14px;font-size:15px}.pain-result{margin-top:26px;padding:20px}.audience{padding:58px 0}.audience-row h2,.data-update h2,.personalization h2{font-size:34px}.audience-tags span{font-size:14px;padding:10px 12px}.data-update,.personalization{padding:62px 0}.personalization-list{grid-template-columns:1fr 1fr;gap:9px}.personalization-list div{padding:17px;min-height:150px}.personalization-list b{font-size:17px}.personalization-list span{font-size:15px}}
 @media(max-width:390px){.pain-messages,.personalization-list{grid-template-columns:1fr}}
+
+/* Separate hero and problem sections + buyer-to-manager transition */
+.pain{background:#f2f6fc;color:#0b1a32;border-top:1px solid #dce5f1}
+.pain .section-index{color:#59739a}
+.pain-copy h2 span{color:#8795aa}
+.pain-copy p{color:#5e6f87}
+.pain-messages div{background:#fff;border:1px solid #d8e2ef;color:#0b1a32;box-shadow:0 8px 24px rgba(18,43,84,.035)}
+.pain-result{display:none}
+.pain-result-flow{display:grid;grid-template-columns:1fr 56px 1fr;gap:14px;align-items:stretch;margin-top:42px}
+.pain-result-card{padding:25px 28px;border-radius:20px;background:#fff;border:1px solid #d8e2ef;display:flex;flex-direction:column;justify-content:center;min-height:120px}
+.pain-result-card small{font-size:12px;font-weight:800;letter-spacing:.1em;color:#6680a7;margin-bottom:10px}
+.pain-result-card b{font-size:21px;line-height:1.35;max-width:520px}
+.pain-result-card.accent{background:#c8ff4d;border-color:#b9ef3f}
+.pain-result-card.accent small{color:#365300}
+.pain-flow-arrow{display:flex;align-items:center;justify-content:center;font-size:34px;color:#58769e}
+@media(max-width:680px){
+ .pain-result-flow{grid-template-columns:1fr;gap:9px;margin-top:26px}
+ .pain-flow-arrow{height:26px;transform:rotate(90deg);font-size:28px}
+ .pain-result-card{min-height:0;padding:19px}
+ .pain-result-card b{font-size:18px}
+}
